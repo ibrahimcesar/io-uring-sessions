@@ -1,0 +1,11 @@
+[package]
+name = "io_uring_session"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# We'll start without actual io_uring to focus on the type-level protocol
+# io-uring = "0.6"
+
+[features]
+default = []
